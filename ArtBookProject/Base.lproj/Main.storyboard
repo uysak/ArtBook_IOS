@@ -51,18 +51,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectImage" translatesAutoresizingMaskIntoConstraints="NO" id="FvQ-R8-dj3">
                                 <rect key="frame" x="20" y="122" width="374" height="325"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fAA-lX-2US">
-                                <rect key="frame" x="63" y="487" width="289" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fAA-lX-2US">
+                                <rect key="frame" x="62.5" y="487" width="289" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="O7h-jQ-3Bz"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="oaC-Bg-Jm0"/>
+                                    <constraint firstAttribute="width" constant="289" id="wGb-SU-0oZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SaH-Ih-V7H">
-                                <rect key="frame" x="63" y="608" width="289" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SaH-Ih-V7H">
+                                <rect key="frame" x="62.5" y="608" width="289" height="34"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="289" id="DJR-qO-gGX"/>
                                     <constraint firstAttribute="height" constant="34" id="U06-fe-ass"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="hNP-Mc-XvU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -78,10 +82,12 @@
                                     <action selector="saveButtonClicked:" destination="n1M-Fi-5R1" eventType="touchUpInside" id="Xj0-Oq-t7x"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Artist" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IdN-nL-WZs">
-                                <rect key="frame" x="63" y="547" width="289" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Artist" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IdN-nL-WZs">
+                                <rect key="frame" x="62.5" y="547" width="289" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="K7O-2L-Wlr"/>
+                                    <constraint firstAttribute="width" constant="289" id="LyM-Th-MV1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="mZk-jt-wsF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
